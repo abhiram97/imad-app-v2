@@ -51,7 +51,7 @@ var article={
         </p>
     `
     }
-}
+};
 
 function template(data){
     var title= data.title;
