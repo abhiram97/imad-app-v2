@@ -1,10 +1,10 @@
 var button= document.getElementById("but");
 var counter= 0;
 button.onclick= function(){
-    var request= new XMLHttprequest();
+    var request= new XMLHttpRequest();
     
     request.onreadystatechange = function(){
-        if(request.readyState=== XMLHttprequest.DONE)
+        if(request.readyState=== XMLHttpRequest.DONE)
         {
             if(request.status=== 200)
             {
