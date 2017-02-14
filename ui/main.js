@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var boss= document.getElementById("boss");
-boss.onclick= function(){
-  boss.style.marginLeftt='200px';  
+var sss= document.getElementById("boss");
+sss.onclick= function(){
+  sss.style.marginLeftt='200px';  
 };
