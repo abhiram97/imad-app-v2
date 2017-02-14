@@ -9,7 +9,7 @@ sss.onclick= function(){
   var interval= setInterval(moveRight, 50);
 };
 var a= document.getElementById("but");
-var count=0;
+
 a.onclick= function(){
   var b= document.getElementById("count");  
   count= count + 1;
