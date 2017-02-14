@@ -1,5 +1,5 @@
 console.log('Loaded!');
 var sss= document.getElementById("boss");
-boss.onclick= function(){
+sss.onclick= function(){
   console.log("inside the function");  
 };
