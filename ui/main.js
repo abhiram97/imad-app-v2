@@ -1,5 +1,5 @@
 console.log('Loaded!');
 var sss= document.getElementById("boss");
 sss.onclick= function(){
-  sss.style.marginLeftt='200px';  
+  sss.style.marginLeft='200px';  
 };
