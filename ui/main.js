@@ -6,5 +6,5 @@ function moveRight(){
     sss.style.marginLeft= marginLeft + 'px';
 }
 sss.onclick= function(){
-  var interval= setInterval(moveRight, 100);
+  var interval= setInterval(moveRight, 50);
 };
