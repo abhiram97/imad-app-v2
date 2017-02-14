@@ -12,6 +12,6 @@ var a= document.getElementById("but");
 
 a.onclick= function(){
   var b= document.getElementById("count");  
-  count= count + 1;
-  b.innerHTML=count;
+  counter= counter + 1;
+  b.innerHTML=counter;
 };
