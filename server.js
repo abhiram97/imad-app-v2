@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var article={
+/*var article={
     articleone :{title: 'Article-one | IMAD 2017 | Abhiram97',
     heading:'Article one',
     date: '5 june 2015',
@@ -51,14 +51,14 @@ var article={
         </p>
     `
     }
-};
+};*/
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 
-function template(data){
+/*function template(data){
     var title= data.title;
     var heading= data.heading;
     var date= data.date;
@@ -90,7 +90,7 @@ var htmltemplate=`<html>
     
 </html>`;
 return htmltemplate;
-}
+}*/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
