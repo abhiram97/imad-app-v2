@@ -1,5 +1,5 @@
 console.log('Loaded!');
 var sss= document.getElementById("boss");
 sss.onclick= function(){
-  console.log("inside the function");  
+  sss.style.paddingright='200 px';  
 };
